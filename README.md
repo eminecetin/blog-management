@@ -28,7 +28,7 @@ Projeyi yerel ortamda çalıştırmak için aşağıdaki adımları takip edebil
 
 ### Projeyi Klonlayın:
 
-git clone https://github.com/username/blog-app.git
+git clone https://github.com/eminecetin/blog-management.git
 cd blog-app
 
 ### Gerekli Paketleri Yükleyin:
