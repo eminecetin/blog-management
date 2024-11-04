@@ -26,18 +26,27 @@ cd blog-app
 Gerekli Paketleri Yükleyin:
 
 npm install
+
 Uygulamayı Başlatın:
 
 npm start
+
 Bu komut, projeyi yerel geliştirme sunucusunda başlatacaktır. Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyebilirsiniz.
 
 Proje Yapısı
+
 src/components: Tüm bileşenler burada yer alır.
+
 BlogList: Blogların listelendiği ve yeni blogların eklendiği bileşenler.
+
 user: Kullanıcı işlemlerini (giriş yapma, kayıt olma ve çıkış yapma) içeren bileşenler.
+
 src/data: Varsayılan blog verilerini içeren dosya (blogData.js).
+
 src/App.jsx: Uygulamanın ana bileşeni. Tüm işlevselliğin birleştiği yer.
+
 src/App.css: Genel stil dosyası.
+
 Kullanım
 Kayıt Olma ve Giriş Yapma: Navbar'daki "Kayıt Ol" veya "Giriş Yap" düğmeleri ile kullanıcı hesabı oluşturabilir veya mevcut bir kullanıcıyla giriş yapabilirsiniz.
 
