@@ -1,39 +1,40 @@
-## blog-management
+# blog-management
 
 Bu proje, kullanıcıların blog yazıları ekleyip yönetebileceği, arama ve sıralama yapabileceği bir React tabanlı blog uygulamasıdır. Kullanıcılar ayrıca sisteme giriş yapabilir, yeni bir kullanıcı oluşturabilir ve çıkış yapabilirler.
 
-Özellikler
-Kullanıcı Yönetimi: Kullanıcılar giriş yapabilir, kayıt olabilir ve çıkış yapabilir.
+##Özellikler:
 
-Blog Ekleme: Kullanıcılar giriş yaptıktan sonra yeni bir blog yazısı ekleyebilir.
+###Kullanıcı Yönetimi: Kullanıcılar giriş yapabilir, kayıt olabilir ve çıkış yapabilir.
 
-Blog Listeleme: Tüm blog yazıları listelenir ve kullanıcılar istedikleri yazıyı görüntüleyebilir.
+###Blog Ekleme: Kullanıcılar giriş yaptıktan sonra yeni bir blog yazısı ekleyebilir.
 
-Blog Filtreleme: Kullanıcılar, blog başlıklarına göre arama yapabilir ve listeyi sıralayabilir.
+###Blog Listeleme: Tüm blog yazıları listelenir ve kullanıcılar istedikleri yazıyı görüntüleyebilir.
 
-Blog Güncelleme ve Silme: Blog yazıları güncellenebilir veya silinebilir.
+###Blog Filtreleme: Kullanıcılar, blog başlıklarına göre arama yapabilir ve listeyi sıralayabilir.
 
-Veri Saklama: Uygulama, blog verilerini localStorage'de saklar, bu sayede sayfa yenilendiğinde veriler korunur.
+###Blog Güncelleme ve Silme: Blog yazıları güncellenebilir veya silinebilir.
+
+###Veri Saklama: Uygulama, blog verilerini localStorage'de saklar, bu sayede sayfa yenilendiğinde veriler korunur.
 Kurulum
 
 Projeyi yerel ortamda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
-Projeyi Klonlayın:
+###Projeyi Klonlayın:
 
 git clone https://github.com/username/blog-app.git
 cd blog-app
 
-Gerekli Paketleri Yükleyin:
+###Gerekli Paketleri Yükleyin:
 
 npm install
 
-Uygulamayı Başlatın:
+###Uygulamayı Başlatın:
 
 npm start
 
 Bu komut, projeyi yerel geliştirme sunucusunda başlatacaktır. Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyebilirsiniz.
 
-Proje Yapısı
+###Proje Yapısı
 
 src/components: Tüm bileşenler burada yer alır.
 
@@ -47,7 +48,8 @@ src/App.jsx: Uygulamanın ana bileşeni. Tüm işlevselliğin birleştiği yer.
 
 src/App.css: Genel stil dosyası.
 
-Kullanım
+###Kullanım
+
 Kayıt Olma ve Giriş Yapma: Navbar'daki "Kayıt Ol" veya "Giriş Yap" düğmeleri ile kullanıcı hesabı oluşturabilir veya mevcut bir kullanıcıyla giriş yapabilirsiniz.
 
 Blog Ekleme: Giriş yaptıktan sonra yeni bir blog eklemek için "Yeni Blog Ekle" formunu doldurabilirsiniz.
@@ -66,13 +68,21 @@ Sunucu Taraflı Veri Yönetimi: Blog verilerini localStorage yerine bir sunucu v
 Daha Fazla Filtreleme Seçeneği: Bloglara kategori veya etiket ekleyerek filtreleme seçeneklerini genişletebilirsiniz.
 
 
-Gereksinimler
+###Gereksinimler:
+
 Node.js ve npm yüklü olmalıdır.
+
 React 17 veya daha yeni bir sürüm.
+
 Geliştirme ve test için modern bir tarayıcı (Chrome, Firefox, Safari, vb.)
-Katkıda Bulunma
+
+###Katkıda Bulunma
+
 Bu projeyi forkladıktan sonra kendi dalınızda geliştirme yapabilirsiniz.
+
 Değişikliklerinizi commit'leyin.
+
 Bir pull request (PR) açarak projeye katkıda bulunabilirsiniz.
-Lisans
+
+##Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
