@@ -1,4 +1,4 @@
-# blog-management
+## blog-management
 
 Bu proje, kullanıcıların blog yazıları ekleyip yönetebileceği, arama ve sıralama yapabileceği bir React tabanlı blog uygulamasıdır. Kullanıcılar ayrıca sisteme giriş yapabilir, yeni bir kullanıcı oluşturabilir ve çıkış yapabilirler.
 
